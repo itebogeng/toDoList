@@ -1,0 +1,12 @@
+
+
+<!-- <div *ngif="!displayForm"> -->
+<button type="button" (click)="generateForm()" class="btn btn-info fw-bold">+Add</button>
+
+<!-- </div> -->
+
+<div *ngIf="displayForm">
+<app-form></app-form>
+</div>
+
+<div></div>
