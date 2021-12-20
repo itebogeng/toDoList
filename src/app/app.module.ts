@@ -16,7 +16,8 @@ import { IndividualComponent } from './individual/individual.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
